@@ -9,20 +9,27 @@
   
     color: #2C4E65;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding-top: 40px;
     height:  350px ;
     
     h1 {
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
     }
 
     p {
         font-size: 25px;
-        margin-bottom: 50px;
+        //margin-bottom: 50px;
     }
+}
+
+.splash-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cv-button-splash {
@@ -63,7 +70,7 @@
     }
 
     .splash-text {
-        height:  560px ;
+        height:  560px;  
     }
 
 }
